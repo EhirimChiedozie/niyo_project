@@ -1,0 +1,4 @@
+To register, localhost:8000/auth/users
+To login a user, localhost:8000/auth/users/jwt/create
+To create or view tasks, localhost:8000/tasks
+To view tasks by id, localhost:8000/tasks/<int:id>. Note, if the task is the nth task created, replace `<int:1d>` by n
